@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button, Input, Layout, Typography } from 'antd';
 import styled from 'styled-components';
 import { useGameStore } from '../store/gameStore';
-import { cyberpunkStoryContext } from '../contexts';
+import { defaultStoryContext } from '../contexts';
 import GameHeader from '../components/GameHeader';
 import GameFooter from '../components/GameFooter';
 
