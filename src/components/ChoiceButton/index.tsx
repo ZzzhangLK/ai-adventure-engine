@@ -7,6 +7,10 @@ const StyledButton = styled(Button)`
   border-color: #00ffff;
   color: #00ffff;
   background: transparent;
+  white-space: normal; // 允许文字换行
+  height: auto; // 高度根据内容自适应
+  padding: 8px 15px; // 调整内边距以适应多行文本
+  line-height: 1.5; // 调整行高，让多行文本更易读
 
   &:hover,
   &:focus {

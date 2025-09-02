@@ -30,7 +30,7 @@ const StyledGameWindow = styled.div`
     border-left: none;
     border-right: none;
     box-shadow: none;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 120px);
   }
 `;
 
